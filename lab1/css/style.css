@@ -1,0 +1,114 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+  html {
+    box-sizing: border-box;
+}
+
+  .container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header{
+    margin-bottom: 82px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 0;
+}
+
+.logo, .title__text {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+
+.navigation ul{
+    display: flex;
+    gap: 0 40px;
+}
+
+.main{
+    margin-bottom: 135px;
+}
+
+.title{
+    margin-bottom: 113px;
+}
+
+.title__text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px 0;
+}
+
+.title__text h1{
+    font-size: 50px;
+    line-height: 51px;
+    letter-spacing: 2px;
+}
+
+.title__text p{
+    color: #101315;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.title__container{
+    max-width: 1440px;
+    padding: 0 20px;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.container-main{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.image{
+    width: 1440px;
+    height: 534px;
+    margin-bottom: 140px;
+}
+
+.text{
+    display: grid;
+    gap: 30px 0;
+}
+
+.text {
+    color: rgb(16, 19, 21);
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.footer{
+    background-image: url(../images/image_footer.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    position: relative;
+    margin-top: 155px;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 31px 0 32px 0;
+    align-items: center;
+    position: relative;
+}
+
+.logo{
+    font-size: 26px;
+    line-height: 26px;
+}
